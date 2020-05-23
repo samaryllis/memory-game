@@ -2,9 +2,44 @@
   display: flex;
   flex-wrap: wrap;
   height: 300px;
+}
+.easy {
   width: 400px;
+}
+.hard {
+  width: 600px;
 }
 
 img {
   outline: 2px solid black;
+}
+
+button {
+  background-color: #fbd7d9; /* Green */
+  border: 2px solid #fbd7d9;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0 9px #999;
+  margin-bottom: 20px;
+}
+button:hover {
+  background-color: white;
+  color: black;
+}
+button:active {
+  background-color: #fbd7d9;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#modeEasy {
+  display: none;
 }
